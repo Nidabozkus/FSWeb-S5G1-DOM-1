@@ -56,6 +56,13 @@ navA[3].textContent = siteContent.nav["nav-item-4"];
 navA[4].textContent = siteContent.nav["nav-item-5"];
 navA[5].textContent = siteContent.nav["nav-item-6"];
 
+navA[0].classList.add("italic");
+navA[1].classList.add("italic");
+navA[2].classList.add("italic");
+navA[3].classList.add("italic");
+navA[4].classList.add("italic");
+navA[5].classList.add("italic");
+
 const headImg = document.getElementById("logo-img");
 headImg.setAttribute("src", siteContent.images["logo-img"]);
 
@@ -95,3 +102,4 @@ cp[2].textContent = siteContent["iletisim"]["email"];
 
 const footerA = document.querySelector("footer > a");
 footerA.textContent = siteContent.footer["copyright"];
+footerA.classList.add("bold");
